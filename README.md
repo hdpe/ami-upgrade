@@ -41,7 +41,7 @@ QUIET=false
 ### Run script
 
 ```
-$ docker run --rm --env-file .env -v ~/.ssh/id_rsa:/.id_rsa ami-upgrade
+$ docker run --rm --env-file .env -v ~/.ssh/id_rsa:/.id_rsa hdpe/ami-upgrade
 ```
 
 ## TODO
