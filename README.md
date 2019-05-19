@@ -34,6 +34,9 @@ SSH_ARGS=-i /.id_rsa -tt -o StrictHostKeyChecking=no
 # The command to run on the remote!
 USER_SCRIPT=sudo yum update -y
 
+# Actually create new image (false - default), or just run through steps (true)
+DRY_RUN=false
+
 # Output everything (false - default), or just the new image ID (true)
 QUIET=false
 ```
